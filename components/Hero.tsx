@@ -43,7 +43,6 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 opacity-60">
-        <span className="text-[10px] uppercase tracking-[0.3em] text-white">Scroll</span>
         <div className="w-[1px] h-16 bg-gradient-to-b from-copper to-transparent"></div>
       </div>
 

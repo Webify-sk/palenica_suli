@@ -81,7 +81,7 @@ const ServicesPage: React.FC = () => {
               Nemáte vlastné ovocie, ale túžite po kvalitnom destiláte s etiketou vášho mena, pre vašu firmu alebo na rodinnú 
               oslavu či svadbu? Náš majster destilatér zabezpečí a spracuje prvotriedne ovocie a dodá vám hotový produkt.
             </p>
-            <div className="grid grid-cols-2 gap-6 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
               <div className="bg-white/5 rounded-2xl p-4 border border-white/10">
                 <h4 className="text-xl font-serif text-copper mb-2">Výber ovocia</h4>
                 <p className="text-stone-400 text-sm">Lokálne ovocie tej najvyššej kvality</p>

@@ -20,7 +20,7 @@ const ReservationForm: React.FC = () => {
           />
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2">Telefón</label>
             <input
@@ -45,7 +45,7 @@ const ReservationForm: React.FC = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="block text-xs uppercase tracking-widest text-stone-500 mb-2">Množstvo (kg/l)</label>
             <input
