@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
             <li><Link to="/sluzby" className="hover:text-copper transition-colors">Služby</Link></li>
             <li><Link to="/proces" className="hover:text-copper transition-colors">Proces</Link></li>
             <li><Link to="/cennik" className="hover:text-copper transition-colors">Cenník</Link></li>
-            <li><Link to="/faq" className="hover:text-copper transition-colors">FAQ</Link></li>
+            <li><Link to="/otazky" className="hover:text-copper transition-colors">Časté otázky</Link></li>
             <li><Link to="/kontakt" className="hover:text-copper transition-colors">Kontakt</Link></li>
           </ul>
         </div>

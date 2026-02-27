@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
     { label: 'Služby', href: '/sluzby' },
     { label: 'Proces', href: '/proces' },
     { label: 'Cenník', href: '/cennik' },
-    { label: 'FAQ', href: '/faq' },
+    { label: 'Časté otázky', href: '/otazky' },
     { label: 'Kontakt', href: '/kontakt' },
   ];
 
