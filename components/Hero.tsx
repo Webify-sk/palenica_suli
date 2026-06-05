@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
           Umenie, ktoré <br /> <span className="text-copper italic">preteká</span> generáciami
         </h1>
         <p className="text-stone-200 text-lg md:text-xl mb-10 max-w-2xl mx-auto leading-relaxed font-light">
-          Tradičné ovocné destiláty z regiónu Trenčín. Spájame storočnú receptúru s modernou precíznosťou v každej kvapke.
+          Poctivé ovocné destiláty z Kamenného Mostu. Spájame storočnú receptúru s modernou precíznosťou v každej kvapke.
         </p>
         <div className="flex flex-col sm:flex-row gap-5 justify-center">
           <Link to="/#rezervacia" className="bg-copper hover:bg-amber-700 text-white px-10 py-4 rounded-full text-lg transition-all shadow-[0_10px_30px_-10px_rgba(184,115,51,0.5)] font-medium">

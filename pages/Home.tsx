@@ -69,7 +69,7 @@ const Home: React.FC = () => {
               <span className="text-copper font-semibold uppercase tracking-widest text-sm mb-4 block">Rezervácia</span>
               <h2 className="text-4xl md:text-5xl mb-8 leading-tight font-serif">Zabezpečte si svoj termín včas</h2>
               <p className="text-stone-600 text-lg mb-8 leading-relaxed">
-                Hlavná sezóna pálenia prebieha od augusta do decembra. Odporúčame rezerváciu aspoň 2 týždne vopred, najmä pri väčších množstvách kvasu. Vyplňte náš jednoduchý formulár a my sa vám ozveme s potvrdením.
+                Hlavná sezóna pálenia prebieha od augusta do decembra. Odporúčame rezerváciu aspoň 2 týždne vopred, najmä pri väčších množstvách kvasu. Rezervácie prijímame výhradne telefonicky pre najrýchlejšie zladenie termínov.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-4 text-stone-700">

@@ -19,10 +19,10 @@ const Pricing: React.FC = () => {
           <div className="divide-y divide-white/5">
             <div className="p-6 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
               <div>
-                <p className="text-white font-medium">Pálenie (liter 50% destilátu)</p>
-                <p className="text-xs text-stone-500">Vrátane spotrebnej dane a DPH</p>
+                <p className="text-white font-medium">Pálenie (liter 52% destilátu)</p>
+                <p className="text-xs text-stone-500">Vrátane spotrebnej dane (nie sme platcami DPH)</p>
               </div>
-              <div className="text-copper font-serif text-2xl">9.50 €</div>
+              <div className="text-copper font-serif text-2xl">8.00 €</div>
             </div>
             
             <div className="p-6 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">

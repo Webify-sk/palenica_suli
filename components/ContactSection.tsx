@@ -17,7 +17,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-stone-900 mb-1">Adresa</h4>
-                  <p className="text-stone-500">Pálenica Tradícia, Slobody 123<br/>911 01 Trenčín, Slovensko</p>
+                  <p className="text-stone-500">Pálenica Tradícia, Kamenný Most čd56<br/>943 58 Kamenný Most, Slovensko</p>
                 </div>
               </div>
               <div className="flex gap-6">
@@ -26,7 +26,10 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-stone-900 mb-1">Telefón</h4>
-                  <p className="text-stone-500">+421 905 123 456<br/>Po - Pi: 08:00 - 17:00</p>
+                  <p className="text-stone-500">
+                    <a href="tel:0908054439" className="hover:text-copper transition-colors">0908 05 44 39</a><br/>
+                    <a href="tel:0908661160" className="hover:text-copper transition-colors">0908 66 11 60</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -43,7 +46,7 @@ const ContactSection: React.FC = () => {
 
           <div className="h-[500px] lg:h-auto rounded-3xl overflow-hidden shadow-2xl grayscale hover:grayscale-0 transition-all duration-700">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41873.74415494488!2d18.014389912061482!3d48.88938210174092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47149bc52115167f%3A0x400f7d4531a2680!2zVHJlbsSw61u!5e0!3m2!1ssk!2ssk!4v1700000000000!5m2!1ssk!2ssk" 
+              src="https://maps.google.com/maps?q=Kamenný%20Most%2056,%20943%2058,%20Slovensko&t=&z=14&ie=UTF8&iwloc=&output=embed" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

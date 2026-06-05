@@ -10,7 +10,7 @@ const MapSection: React.FC = () => {
                         <span className="text-copper font-semibold uppercase tracking-widest text-sm mb-4 block">Lokalita</span>
                         <h2 className="text-3xl md:text-4xl mb-6 font-serif leading-tight">Kde nás <span className="text-copper italic">nájdete</span></h2>
                         <p className="text-stone-600 mb-8 leading-relaxed">
-                            Naša pálenica sa nachádza v tichom prostredí blízko Trenčína, s výbornou dostupnosťou a možnosťou parkovania priamo v areáli.
+                            Naša pálenica sa nachádza v tichom prostredí obce Kamenný Most, s výbornou dostupnosťou a možnosťou parkovania priamo v areáli.
                         </p>
                         <div className="space-y-6">
                             <div className="flex items-start gap-4">
@@ -19,7 +19,7 @@ const MapSection: React.FC = () => {
                                 </div>
                                 <div>
                                     <p className="font-bold text-stone-900">Adresa</p>
-                                    <p className="text-stone-600">Hlavná 123, 911 01 Trenčín</p>
+                                    <p className="text-stone-600">Kamenný Most čd56, 943 58</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
@@ -34,7 +34,7 @@ const MapSection: React.FC = () => {
                             </div>
                         </div>
                         <a
-                            href="https://maps.google.com"
+                            href="https://maps.google.com/maps?q=Kamenný%20Most%2056,%20943%2058,%20Slovensko"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="mt-10 inline-flex items-center gap-2 text-copper font-bold hover:gap-4 transition-all"
@@ -45,9 +45,9 @@ const MapSection: React.FC = () => {
                     </div>
 
                     <div className="md:col-span-2 h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-stone-200">
-                        {/* Embedded Google Map - Placeholder location (Trenčín) */}
+                        {/* Embedded Google Map */}
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41885.6433580554!2d18.0179929!3d48.8911295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4714d2466f2864eb%3A0xa624b45781a5390c!2zVHJlbsSNw61u!5e0!3m2!1ssk!2ssk!4v1708425000000!5m2!1ssk!2ssk"
+                            src="https://maps.google.com/maps?q=Kamenný%20Most%2056,%20943%2058,%20Slovensko&t=&z=14&ie=UTF8&iwloc=&output=embed"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}

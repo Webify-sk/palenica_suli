@@ -16,7 +16,7 @@ const ContactPage: React.FC = () => {
             Tešíme sa na <span className="text-copper italic">vašu návštevu</span>
           </h1>
           <p className="text-stone-600 text-lg max-w-2xl mx-auto leading-relaxed">
-            Nájdete nás v srdci trenčianskeho kraja. Či už nesiete kvas, alebo sa chcete len poradiť, 
+            Nájdete nás v obci Kamenný Most. Či už nesiete kvas, alebo sa chcete len poradiť, 
             naše dvere sú pre milovníkov poctivého remesla vždy otvorené.
           </p>
         </div>
@@ -54,7 +54,10 @@ const ContactPage: React.FC = () => {
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   Zavolajte nám
                 </h4>
-                <p className="text-stone-600 text-lg">+421 905 123 456</p>
+                <p className="text-stone-600 text-base leading-relaxed">
+                  <a href="tel:0908054439" className="hover:text-copper transition-colors">0908 05 44 39</a><br/>
+                  <a href="tel:0908661160" className="hover:text-copper transition-colors">0908 66 11 60</a>
+                </p>
                 <p className="text-stone-400 text-sm">Po - Pi: 08:00 - 17:00</p>
               </div>
               <div>
@@ -72,7 +75,7 @@ const ContactPage: React.FC = () => {
           <div className="sticky top-28 space-y-8">
             <div className="h-[450px] rounded-3xl overflow-hidden shadow-2xl border border-stone-200">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41885.6433580554!2d18.0179929!3d48.8911295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4714d2466f2864eb%3A0xa624b45781a5390c!2zVHJlbsSNw61u!5e0!3m2!1ssk!2ssk!4v1700000000000!5m2!1ssk!2ssk"
+                src="https://maps.google.com/maps?q=Kamenný%20Most%2056,%20943%2058,%20Slovensko&t=&z=14&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -85,10 +88,10 @@ const ContactPage: React.FC = () => {
             <div className="bg-stone-900 text-white rounded-3xl p-8 flex flex-col md:flex-row justify-between items-center gap-6">
               <div>
                 <h3 className="text-xl font-bold mb-2">Pálenica Tradícia</h3>
-                <p className="text-stone-400">Slobody 123, 911 01 Trenčín</p>
+                <p className="text-stone-400">Kamenný Most čd56, 943 58</p>
               </div>
               <a
-                href="https://maps.google.com"
+                href="https://maps.google.com/maps?q=Kamenný%20Most%2056,%20943%2058,%20Slovensko"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-copper hover:bg-amber-700 text-white px-8 py-3 rounded-xl transition-all font-bold whitespace-nowrap"

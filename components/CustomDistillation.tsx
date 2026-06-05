@@ -22,7 +22,7 @@ const CustomDistillation: React.FC = () => {
                         Pálenka <span className="text-copper italic">na kľúč</span>
                     </h2>
                     <p className="text-stone-300 text-xl mb-10 leading-relaxed font-light">
-                        Od zberu ovocia až po finálnu fľašu s vašou vlastnou etiketou. Radi sa postaráme o celý proces za vás, aby ste si mohli vychutnať len dokonalý výsledok.
+                        Kompletné zabezpečenie od výberu prvotriedneho ovocia, cez riadené kvasenie až po samotnú destiláciu. Radi sa postaráme o celý proces za vás.
                     </p>
                     <div className="flex flex-wrap gap-4">
                         <Link to="/kontakt" className="bg-copper hover:bg-amber-700 text-white px-10 py-4 rounded-full text-lg transition-all shadow-lg font-medium inline-block">

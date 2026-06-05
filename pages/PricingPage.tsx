@@ -10,7 +10,7 @@ const PricingPage: React.FC = () => {
     {
       category: 'Pestovateľské pálenie',
       items: [
-        { name: 'Pálenie (liter 50% destilátu)', price: '8.50 €', note: 'Vrátane spotrebnej dane' },
+        { name: 'Pálenie (liter 52% destilátu)', price: '8.00 €', note: 'Vrátane spotrebnej dane (nie sme platcami DPH)' },
         { name: 'Riedenie a čistenie', price: 'V cene', note: 'Zahrnuté v základnom poplatku' },
         { name: 'Odber výpalkov', price: 'Zadarmo', note: 'Možnosť vlastného odberu' },
       ]
@@ -26,9 +26,8 @@ const PricingPage: React.FC = () => {
     {
       category: 'Pálenka na kľúč',
       items: [
-        { name: 'Kompletný servis (liter)', price: 'individuálne', note: 'Závisí od druhu ovocia a fliaš' },
-        { name: 'Vlastná etiketa (návrh + tlač)', price: 'od 15.00 €', note: 'Jednorazový poplatok' },
-        { name: 'Darčekové balenie', price: 'od 3.00 €', note: 'Podľa vybraného obalu' },
+        { name: 'Kompletný servis (liter destilátu)', price: 'Individuálne', note: 'Zahŕňa nákup ovocia, kvasenie a destiláciu' },
+        { name: 'Uskladnenie a dozrievanie', price: 'V cene', note: 'Stabilizácia destilátu pred odberom v tankoch' },
       ]
     }
   ];
@@ -45,7 +44,7 @@ const PricingPage: React.FC = () => {
           </h1>
           <p className="text-stone-600 text-lg max-w-3xl mx-auto leading-relaxed">
             Naším cieľom je poskytovať špičkové služby za férové ceny. Nižšie nájdete prehľad poplatkov za pestovateľské 
-            pálenie aj doplnkový servis. Ceny sú konečné vrátane legislatívnych daní.
+            pálenie aj doplnkový servis. Sme rodinná firma a nie sme platcami DPH (ceny sú konečné).
           </p>
         </div>
 

@@ -33,21 +33,21 @@ const ProcessPage: React.FC = () => {
     },
     {
       num: '05',
-      title: 'Prvá destilácia (surový destilát)',
-      desc: 'Kvas sa plní do medeného kotla, kde sa zahrieva. V prvej fáze získavame tzv. "lunt" alebo surový destilát s obsahom alkoholu okolo 25-30%.',
-      tips: ['Meď v kotle viaže nežiaduce zlúčeniny síry', 'Pomalý ohrev je kľúčom k jemnosti']
+      title: 'Destilácia v kolóne',
+      desc: 'Kvas sa plní do moderného medeného kotla prepojeného s rektifikačnou kolónou a deflegmátorom. Táto technológia umožňuje destiláciu a čistenie v rámci jedného kontinuálneho cyklu, čím zaručuje vynikajúcu čistotu a zachovanie všetkých aromatických látok.',
+      tips: ['Rektifikačná kolóna s deflegmátorom zaručuje čistotu', 'Pomalý ohrev chráni jemnosť arómy']
     },
     {
       num: '06',
-      title: 'Rektifikácia (čistenie)',
-      desc: 'Surový destilát putuje do druhého kotla na finálne čistenie. Tu náš majster destilatér precízne oddeľuje "hlavu" (nebezpečné látky) a "chvost" (pribudliny) od čistého "jadra".',
-      tips: ['Oddelenie hlavy robíme senzoricky aj prístrojovo', 'Získavame len to najkvalitnejšie jadro']
+      title: 'Oddelenie frakcií',
+      desc: 'Počas procesu destilácie náš majster precízne oddeľuje nežiaducu "hlavu" (úkvap) a "chvost" (dokvap) od čistého "jadra" (prekvap). Týmto spôsobom pre vás uchovávame len to najchutnejšie a najbezpečnejšie srdce destilátu.',
+      tips: ['Oddelenie riadime senzoricky aj prístrojovo', 'Získavame len to najkvalitnejšie jadro']
     },
     {
       num: '07',
       title: 'Úprava stupňovitosti',
-      desc: 'Čerstvý destilát má vysokú stupňovitosť (okolo 65-72%). Na základe vášho želania ho zriedime kvalitnou mäkkou vodou na finálnu hodnotu (najčastejšie 50-52%).',
-      tips: ['Odporúčaná stupňovitosť pre slivovicu je 52%', 'Jablkovica chutí vynikajúco aj pri 45-50%']
+      desc: 'Čerstvý destilát má vysokú stupňovitosť (okolo 65-72%). Na základe vášho želania ho zriedime kvalitnou mäkkou vodou na finálnu hodnotu (najčastejšie 52%).',
+      tips: ['Odporúčaná stupňovitosť pre ovocné destiláty je 52%', 'Jemné riedenie zjemňuje chuťový profil']
     }
   ];
 

@@ -11,13 +11,13 @@ const reviews = [
     {
         name: "Zuzana P.",
         rating: 5,
-        text: "Pálenka na kľúč nám ušetrila toľko času! Ovocie sme len odovzdali a o tri mesiace sme si vyzdvihli fľaše s krabičkami. Skvelý darček pre otca.",
+        text: "Pálenka na kľúč bola skvelá voľba. Ovocie sme len odovzdali a o celý proces kvasenia a destilácie sa postarali u nich. My sme si už len prevzali hotový čistý destilát. Skvelý darček pre otca.",
         date: "Január 2025"
     },
     {
         name: "Ján K.",
         rating: 5,
-        text: "Najlepšia pálenica v okolí Trenčína. Čistota, moderná technológia a hlavne poctivá chuť. Odporúčam každému záhradkárovi.",
+        text: "Najlepšia pálenica v celom okolí. Čistota, moderná technológia a hlavne poctivá chuť. Odporúčam každému záhradkárovi.",
         date: "November 2024"
     }
 ];

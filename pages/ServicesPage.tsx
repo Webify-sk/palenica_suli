@@ -78,7 +78,7 @@ const ServicesPage: React.FC = () => {
             <span className="text-copper font-semibold uppercase tracking-widest text-sm mb-3 block">Prémiová služba</span>
             <h2 className="text-3xl md:text-4xl font-serif mb-6">Pálenka na kľúč</h2>
             <p className="text-stone-300 mb-8 leading-relaxed">
-              Nemáte vlastné ovocie, ale túžite po kvalitnom destiláte s etiketou vášho mena, pre vašu firmu alebo na rodinnú 
+              Nemáte vlastné ovocie, ale túžite po kvalitnom destiláte pre vašu firmu alebo na rodinnú 
               oslavu či svadbu? Náš majster destilatér zabezpečí a spracuje prvotriedne ovocie a dodá vám hotový produkt.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
@@ -91,12 +91,12 @@ const ServicesPage: React.FC = () => {
                 <p className="text-stone-400 text-sm">Zakvasenie, destilácia a odležanie</p>
               </div>
               <div className="bg-white/5 rounded-2xl p-4 border border-white/10">
-                <h4 className="text-xl font-serif text-copper mb-2">Fľašovanie</h4>
-                <p className="text-stone-400 text-sm">Stočenie do vybraných prémiových fliaš</p>
+                <h4 className="text-xl font-serif text-copper mb-2">Dozrievanie</h4>
+                <p className="text-stone-400 text-sm">Odležanie a stabilizácia destilátu v nerezových tankoch</p>
               </div>
               <div className="bg-white/5 rounded-2xl p-4 border border-white/10">
-                <h4 className="text-xl font-serif text-copper mb-2">Vaša etiketa</h4>
-                <p className="text-stone-400 text-sm">Návrh a tlač personalizovanej etikety</p>
+                <h4 className="text-xl font-serif text-copper mb-2">Odborné poradenstvo</h4>
+                <p className="text-stone-400 text-sm">Pomoc pri plánovaní kvasenia a príprave ovocia</p>
               </div>
             </div>
             <Link to="/#kontakt" className="bg-copper hover:bg-amber-700 text-white px-8 py-3 rounded-full text-base transition-all shadow-lg font-medium w-fit">
@@ -110,10 +110,10 @@ const ServicesPage: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-serif text-stone-900 mb-6">Ste pripravení na pálenie?</h2>
           <p className="text-stone-600 mb-8 max-w-2xl mx-auto">
             Hľadáte voľný termín alebo sa potrebujete poradiť o príprave vášho kvasu? 
-            Vyplňte náš rezervačný formulár a postaráme sa o vás.
+            Kontaktujte nás telefonicky a my si s vami ihneď prejdeme voľné termíny.
           </p>
           <Link to="/#rezervacia" className="bg-stone-900 hover:bg-stone-800 text-white px-10 py-4 rounded-full text-lg transition-all shadow-lg font-medium inline-block">
-            Prejsť na rezerváciu
+            Zavolať a rezervovať
           </Link>
         </div>
 
