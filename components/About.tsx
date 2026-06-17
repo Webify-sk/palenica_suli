@@ -9,7 +9,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="absolute -top-10 -left-10 w-64 h-64 bg-copper/5 rounded-full blur-3xl"></div>
             <img
-              src="/portrait-senior-man-holding-crate-full-apples-fruit-orchard.jpg"
+              src="/73NJY1QsQxnfAceWdA6qRg.jpg"
               alt="Majster destilatér s jablkami"
               className="rounded-2xl shadow-2xl relative z-10"
             />
@@ -29,12 +29,7 @@ const About: React.FC = () => {
               <p>
                 Používame tradičné medené dvojplášťové kotly, ktoré umožňujú ovociu odovzdať svoju najčistejšiu esenciu. Každý krok procesu, od výberu zrelého ovocia až po finálnu destiláciu, podlieha prísnemu dozoru nášho majstra.
               </p>
-              <div className="pt-4 flex items-center gap-6">
-                <div>
-                  <p className="font-serif text-2xl text-stone-900">Milan Kováč</p>
-                  <p className="text-sm text-stone-500 italic">Hlavný destilatér</p>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ const AboutPage: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center mb-24">
           <div className="relative">
             <img
-              src="/portrait-senior-man-holding-crate-full-apples-fruit-orchard.jpg"
+              src="/73NJY1QsQxnfAceWdA6qRg.jpg"
               alt="História pálenice"
               className="rounded-3xl shadow-2xl relative z-10"
             />
@@ -99,17 +99,8 @@ const AboutPage: React.FC = () => {
         <div className="text-center mb-24">
           <span className="text-copper font-semibold uppercase tracking-widest text-sm mb-4 block">Ľudia za pálenou</span>
           <h2 className="text-4xl font-serif text-stone-900 mb-16">Naši Majstri</h2>
-          <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-            <div className="group">
-              <div className="relative overflow-hidden rounded-3xl mb-6">
-                <img src="/portrait-senior-man-holding-crate-full-apples-fruit-orchard.jpg" alt="Milan Kováč" className="w-full aspect-[4/5] object-cover grayscale group-hover:grayscale-0 transition-all duration-700" />
-              </div>
-              <h3 className="text-2xl font-serif text-stone-900">Milan Kováč</h3>
-              <p className="text-copper font-medium">Hlavný destilatér</p>
-              <p className="text-stone-500 mt-4 text-sm px-6">
-                S viac ako 40-ročnou praxou v odbore dohliada na každú jednu várku, ktorá opustí našu pálenicu.
-              </p>
-            </div>
+          <div className="grid md:grid-cols-1 gap-12 max-w-sm mx-auto">
+
             <div className="group">
               <div className="relative overflow-hidden rounded-3xl mb-6">
                 <img src="/portrait-senior-man-holding-crate-full-apples-fruit-orchard.jpg" alt="Peter Kováč" className="w-full aspect-[4/5] object-cover grayscale group-hover:grayscale-0 transition-all duration-700" />
